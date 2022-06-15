@@ -1,0 +1,163 @@
+body {
+  background-color: #09181f;
+}
+
+.display-1 {
+  font-family: Courier New;
+}
+
+p {
+  font-family: Courier New;
+}
+
+h3 {
+  color: #e1e6e5;
+  font-family: Courier New;
+}
+
+.paragraph {
+  margin: 20px;
+  padding: 25px;
+}
+
+.paragraph-text {
+  text-align: center;
+}
+
+.selfie {
+  height: 350px;
+  padding: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.img-thumbnail {
+  height: 200px;
+}
+
+/*Navbar*/
+.navbar .navbar-nav .nav-link {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Courier New;
+  color: #e1e6e5;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+.navbar {
+  background-color: #750808;
+}
+
+/*Button with email*/
+.btn,
+.btn-primary {
+  background-color: #e1e6e5;
+  color: black;
+  border: none;
+}
+
+.btn-outline-primary {
+  background-image: none;
+  border-color: transparent;
+}
+
+.btn:hover {
+  background-color: #750808;
+  border: none;
+}
+
+/*Carousel*/
+.carousel-item {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Footer*/
+footer {
+  margin-top: 30px;
+  background-color: #750808;
+  color: #e1e6e5;
+  font-size: 20px;
+  font-family: Courier New;
+}
+
+/*Cards on aboutMe*/
+
+p {
+  color: #bacad1;
+}
+.display-1 {
+  color: #e1e6e5;
+}
+.card,
+.list-group-item {
+  background-color: #e1e6e5;
+  font-family: Courier New;
+}
+.list-group-item:hover {
+  background-color: #750808;
+  color: #e1e6e5;
+}
+
+.current {
+  padding-top: 20px;
+}
+
+/*Portfolio*/
+h2 {
+  color: #e1e6e5;
+  text-align: center;
+  padding: 20px;
+  /*Might delete to keep consistent*/
+  font-family: Courier New;
+}
+
+.card-text {
+  color: black;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dad-joke {
+  margin: 0 auto;
+}
+
+/*Contact me*/
+
+h4 {
+  color: #e1e6e5;
+  text-align: center;
+  font-family: Courier New;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  color: #e1e6e5;
+  font-family: Courier New;
+  padding: 5px;
+}
+
+/*Active navbar item*/
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  background-color: #09181f;
+}
+
+/*Buttons on homepage for recent projects- they won't update uh-*/
