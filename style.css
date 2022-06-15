@@ -52,11 +52,11 @@ h3 {
   background-color: #750808;
 }
 
-/*Button with email*/
+/*Regular buttons?*/
 .btn,
 .btn-primary {
-  background-color: #e1e6e5;
-  color: black;
+  background-color: #09181f;
+  color: white;
   border: none;
 }
 
@@ -161,3 +161,28 @@ td {
 }
 
 /*Buttons on homepage for recent projects- they won't update uh-*/
+/*Button with email*/
+#email {
+  background-color: #e1e6e5;
+  color: black;
+  border: none;
+}
+
+#email:hover {
+  background-color: #750808;
+  border: none;
+  color: white;
+}
+
+/*Send button*/
+#send {
+  background-color: #e1e6e5;
+  color: black;
+  border: none;
+}
+
+#send:hover {
+  background-color: #750808;
+  border: none;
+  color: white;
+}
